@@ -1,0 +1,42 @@
+*{
+    margin:0;padding: 0;box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background:linear-gradient(90deg,rgba(255, 255, 255, 0.1),rgba(255, 255, 255, 0.1)),url("img2.jpg") no-repeat center fixed;
+    background-size:cover;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:0.4rem;
+    height: 100vh;
+}
+h1{
+    font-size: 2.4rem;
+}
+#count-el{
+    font-size: 2.5rem;
+}
+.btn{
+    border: none;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 0.6rem;
+    width: 10rem;
+    border-radius: 5px;
+    box-shadow: 0 5px 8px black;
+}
+#increment-btn{
+    background-color: red;
+    margin: 5px;
+}
+#save-btn{background-color: green;}
+.btn:hover{
+    opacity: 80%;cursor: pointer;
+    /* border-radius: 0; */
+    outline: 4px solid rgba(0, 0, 0, 0.637);
+}
